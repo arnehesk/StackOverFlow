@@ -1,0 +1,14 @@
+diff --git a/Tables/dbo.VoteTypes.sql b/Tables/dbo.VoteTypes.sql
+index 79b1c42..81640bf 100644
+--- a/Tables/dbo.VoteTypes.sql
++++ b/Tables/dbo.VoteTypes.sql
+@@ -1,7 +1,8 @@
+ CREATE TABLE [dbo].[VoteTypes]
+ (
+ [Id] [int] NOT NULL,
+-[Name] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CS_AS NOT NULL
++[Name] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CS_AS NOT NULL,
++[Description] [nvarchar] (150) COLLATE SQL_Latin1_General_CP1_CS_AS NOT NULL
+ ) ON [PRIMARY]
+ GO
+ ALTER TABLE [dbo].[VoteTypes] ADD CONSTRAINT [PK_VoteType__Id] PRIMARY KEY CLUSTERED  ([Id]) ON [PRIMARY]
