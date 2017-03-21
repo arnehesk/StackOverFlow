@@ -10,5 +10,9 @@ CREATE PROCEDURE [dbo].[GetPosts]
   
 -- WITH ENCRYPTION, RECOMPILE, EXECUTE AS CALLER|SELF|OWNER| 'user_name'
 AS
-    SELECT * FROM dbo.Posts
+    SELECT  AnswerCount
+    ,       Body
+    ,       ClosedDate
+    ,       CreationDate
+    FROM    dbo.Posts;
 GO
