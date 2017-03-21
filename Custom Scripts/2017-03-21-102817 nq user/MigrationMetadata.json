@@ -1,0 +1,11 @@
+{
+  "Id": "fe05810d-70b4-4f3d-b3e1-6eb9bd0efcee",
+  "Name": "Covers changes to: VoteTypes. Script created at 2017-03-21 10:25.",
+  "ObjectIds": [
+    {
+      "Name": "VoteTypes",
+      "Owner": "dbo",
+      "ObjectType": "Table"
+    }
+  ]
+}
