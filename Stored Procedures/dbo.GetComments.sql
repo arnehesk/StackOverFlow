@@ -10,6 +10,8 @@ CREATE PROCEDURE [dbo].[GetComments]
     
 -- WITH ENCRYPTION, RECOMPILE, EXECUTE AS CALLER|SELF|OWNER| 'user_name'
 AS
-    SELECT Text  
+    SELECT  Text
+    ,       Score
+    ,       CreationDate
     FROM    dbo.Comments;
 GO
